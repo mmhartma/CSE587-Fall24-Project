@@ -91,6 +91,7 @@ Bharath Reddy, 50563984
     \item \href{https://www.huduser.gov/portal/datasets/fmr.html#null}{huduser.gov} - $40^{th}$ Percentile Rents (Historic)
     \item \href{https://www.zillow.com/research/data/}{zillow.com} - Current housing markets, estimations for an area
     \item \href{https://www.rentcast.io/api}{rentcast.io} - Additional market data for a zip code area
+    \item \href{https://insideairbnb.com/get-the-data/}{insideairbnb.com} - AirBnB rentals by city
   \end{enumerate}
 
   Data retrieval consists of a couple calls to certain APIs. While the first two sources are free, rentcast unfortunately charges after the $31^{st}$ use of the month. Therefore, we only try to do this call once and store the result in the results/ folder we have for this. 
@@ -109,8 +110,29 @@ Bharath Reddy, 50563984
 
   \includegraphics[scale=0.82]{rentcast_retrieval.png}
 
+  For insideairbnb.com:
+
+  \includegraphics[scale=0.8]{airbnb_retrieval.png}
+
   \item Data Cleaning (10pts, team)
   
+  For each dataset, we cleaned up all of the NaNs, converted every dataset into a similar JSON, and dropped any unnecessary columns pertaining to our problem. Each are separated out by their source.
+
+  For huduser.gov:
+
+  \includegraphics[scale=0.8]{huduser_cleaning.png}
+
+  For zillow.com:
+
+  \includegraphics[scale=0.8]{zillow_cleaning.png}
+
+  For rentcast.com:
+
+  \includegraphics[scale=0.7]{rentcast_cleaning.png}
+
+  For insideairbnb.com:
+
+  \includegraphics[scale=0.7]{airbnb_cleaning.png}
 
 
   \item Exploratory Data Analysis (20pts, individual)
