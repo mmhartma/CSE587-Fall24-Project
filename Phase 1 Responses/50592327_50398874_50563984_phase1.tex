@@ -116,7 +116,7 @@ Bharath Reddy, 50563984
 
   \item Data Cleaning (10pts, team)
   
-  For each dataset, we cleaned up all of the NaNs, converted every dataset into a similar JSON, and dropped any unnecessary columns pertaining to our problem. Each are separated out by their source.
+  For each dataset, we cleaned up all of the NaNs, converted every dataset into a similar JSON, and dropped any unnecessary columns pertaining to our problem. The reason why JSON is chosen is because pandas provides methods to convert such into pandas DataFrames, which provides exceptional methods that will aid in this project. Each are separated out by their source.
 
   For huduser.gov:
 
@@ -137,7 +137,57 @@ Bharath Reddy, 50563984
 
   \item Exploratory Data Analysis (20pts, individual)
   
-  
+  Saagnik:
+
+  \begin{enumerate}
+    \item Hypothesis 1
+    \item Hypothesis 2
+  \end{enumerate}
+
+  Marcus:
+
+  \begin{enumerate}
+    \item Out of the two states I have chosen, if I am looking at the data of Texas compared to Minnesota, I will see a higher mean and more variation of rent because Texas is more economically active than the other.
+    
+    The following code is used to produce this example (data cleaning did most of the work here): 
+
+    \includegraphics[scale=0.75]{Marcus-Hypothesis-1-code.png}
+    \bigbreak
+    Which produces this graphic: 
+
+    \includegraphics[scale=0.9]{Marcus-Hypothesis-1.png}
+
+    I tried to put an explanation in the code for this hypothesis. However, this will be expanded upon below. 
+    
+    Minnesota experiences both a lower deviation and mean, signifying a much cheaper rent economy than Texas. This proves the hypothesis correct, and yields results that will be used in the later phases. The use of this stems from understanding the different economies in place, and how additional steps will need to be taken in order to predict economic growth in different areas. 
+
+
+    \item If Minnesota's major cities have high rent, then there will be much lower rent outside of these cities because there is a lower standard of living comparatively. 
+    
+    Below is the code that will create the graphic: 
+
+    \includegraphics[scale=0.75]{Marcus-Hypothesis-2-code.png}
+
+    The graphic:
+
+    \includegraphics[scale=0.9]{Marcus-Hypothesis-2.png}
+
+    Although at first this graphics doesn't seem to have any significance, a little bit of forward thinking into government assistance is necessary. The lines of efficiency represent hard boundaries that demonstrate the limits of necessary rent efficiency compared to population. On the higher end of this, we see this cap off at slightly above 1200 per month. On the lower end, this is closer to 600. 
+    
+    Government assistance is used to subsidize the rent efficiency in order for the owners to not consider the property a loss. This is what the line is, and often is around 300-550 additional provided (based on income and other factors).
+
+    On the higher end, the barrier symbolizes what people will deem as 'reasonable' rent given the economic state that they can properly afford. Rental efficiency does take this into account, and the formula can be found on the huduser.gov website. 
+
+    In terms of phase 2 and phase 3, this has a similar outcome compared to my first hypothesis. This shows the significance the economy and government assistance has on the rental climate. We cannot expect the lower efficient counties to not have increase government assistance while not experiencing some form of exponential economic growth in the higher efficient counties. In terms of predicting something of this nature, an increased gap will have to be simulated in order to garner accurate results of predictions. 
+    
+  \end{enumerate}
+
+  Bharath:
+
+  \begin{enumerate}
+    \item Hypothesis 1
+    \item Hypothesis 2
+  \end{enumerate}
 \end{enumerate}
 
 \end{document}
