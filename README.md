@@ -9,4 +9,3 @@ Team Number: 4
 Datasets: 
 https://www.huduser.gov/portal/datasets/fmr.html#null
 https://www.zillow.com/research/data/
-https://insideairbnb.com/data-requests/
