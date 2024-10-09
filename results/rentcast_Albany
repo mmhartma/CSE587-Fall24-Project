@@ -1,0 +1,1 @@
+{"status": 401, "error": "auth/api-key-invalid", "message": "No API key provided in request. An API key must be provided in the 'X-Api-Key' header"}
