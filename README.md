@@ -28,7 +28,7 @@ Marcus:
 Responses can be found on line 178, 181 respectively
 
 Bharath:
-1.
-2.
+1.Comparing the mean and variation of rent between Los Angeles and Rochester.
+2.Comparing the consistency of rent prices between Rochester and Los Angeles
 
-Responses can be found on line 
+Responses can be found on line 14 and 19
