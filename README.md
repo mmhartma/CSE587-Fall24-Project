@@ -16,10 +16,10 @@ results/ stores the results of API calls
 
 Questions of each Member:
 Saagnik:
-1.
-2.
+1.Rent Comparison between NYC and Seattle
+2.Airbnb Listings Price vs. Room Type in New York City 
 
-Responses can be found on line 
+Responses can be found on line 85 and 86
 
 Marcus:
 1. Could there be a larger increase in the gap of rent between a high-income state and one that is lower? Could we see people move to other states to save the money, but work remotely?
