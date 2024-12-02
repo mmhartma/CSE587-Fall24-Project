@@ -5,7 +5,7 @@ Bharath Reddy, 50563984
 
 Team Number: 4
 
-All responses are recorded in the Project.ipynb. Phase 1 responses have been removed, but the code remains as we build upon this. 
+All responses are recorded in the Project.ipynb
 
 data/ includes data found from external sources. They are cited in their respective location
 
@@ -32,3 +32,6 @@ Bharath:
 2.Comparing the consistency of rent prices between Rochester and Los Angeles
 
 Responses can be found on line 14 and 19
+
+
+## Instructions to Build App
