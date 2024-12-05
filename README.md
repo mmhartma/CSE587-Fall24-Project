@@ -35,3 +35,10 @@ Responses can be found on line 14 and 19
 
 
 ## Instructions to Build App
+1. In the terminal, use gcloud init to authenticate to google's servers. If gcloud is not installed, use your associated package manager to install such. This is essential for database interaction through google cloud.
+2. cd app/
+3. streamlit run Home.py
+4. The associated ip's can be found in the terminal. Open the Local URL to be brought to the home page. 
+
+## Report 
+https://docs.google.com/document/d/1W4us3Q4Ymc-IyGFI4kM7BXtndfYfwWfLcG3xxy4O2Yo/edit?usp=sharing
